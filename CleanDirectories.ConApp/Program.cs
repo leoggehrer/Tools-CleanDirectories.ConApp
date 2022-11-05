@@ -13,7 +13,7 @@
             Console.WriteLine("********************************************");
             Console.WriteLine();
 
-            if (args.Length == 1)
+            if (args.Length == 1 && Directory.Exists(args[0]))
             {
                 path = args[0];
             }
